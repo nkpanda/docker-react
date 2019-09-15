@@ -10,7 +10,7 @@ script:
 
 
 deploy:
-  provider: elasticbeansstack
+  provider: elasticbeanstalk
   region: "us-east-2" 
   app: "docker" 
   env: "Docker-env" 
